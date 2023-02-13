@@ -23,7 +23,7 @@ The code aims at building a image classification model
 - We will then we will pre-process the input data to make it compatible for model building wherein we first do a Train-Test split and create 2 subsets (70:30 split), convert all images to tensors for both subsets,resize all the images to one pre-defined size & visualize data and see that everything looks good. Code @ **Pre-Processing_Data.ipynb**
 - Finally we build the model, train the model , log the results and run an inference.We  build an image classifier.We will try 3 different variants of the model
 The first variant is we  will build a Convolution Neural Network from SCRATCH ,train it & capture results.
-The second variant is  a model which a pre-trained MobileNet base with a basic top layer re-built ,re-trained and log results.The third variant is a model with pre-trained MobileNet base with a  slightly more sophisticated  top layer re-built, re-trained and log results.At the end of this program , we will have trained model with scores logged for all the different models tried and tested.We compare and contrast score , pick the best model and run an inference. Code @ **Train_And_Inference.ipynb
+The second variant is  a model which a pre-trained MobileNet base with a basic top layer re-built ,re-trained and log results.The third variant is a model with pre-trained MobileNet base with a  slightly more sophisticated  top layer re-built, re-trained and log results.At the end of this program , we will have trained model with scores logged for all the different models tried and tested.We compare and contrast score , pick the best model and run an inference. Code @ **Train_And_Inference.ipynb**
 
 
 
